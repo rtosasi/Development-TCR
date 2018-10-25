@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>My Javascript</title>
+	<h1>My JavaScript Program</h1>
+  </head>
+  
+  <body>
+    
+	<button type="button" onclick="myslogan()">
+	  Klik
+	</button>
+	
+	<h2><strong>Mijn slogan is: </strong></h2>
+	
+	<p id="test"> ...... </p>
+	
+	<script>
+	  function myslogan() 
+	  {
+	    document.getElementById("test").outerHTML = "Een dag waarop ik niets leer, is een verloren dag !";
+	  }
+	</script>
+	
+  </body>
+  
+</html>
